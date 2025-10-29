@@ -33,6 +33,7 @@ for(int row=0;row<=6;row++) {
           if(imgValue.contains(shapeName)){
                   count++;
 			  System.out.println(shapeName);
+			   System.out.println(shapeName);
                    	}
 	}
 }
