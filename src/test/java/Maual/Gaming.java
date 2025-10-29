@@ -22,6 +22,7 @@ int shapeIndex=shapeAttribute.lastIndexOf('/');
 if(shapeIndex!=-1) {
 	 shapeName=shapeAttribute.substring(shapeIndex+1);
 	System.out.println(shapeName);
+	
 }
 System.out.println("whole Time Completed");
 driver.findElement(By.xpath("//button[@id='btnNext']")).click();
@@ -31,6 +32,7 @@ for(int row=0;row<=6;row++) {
                    String  imgValue  =cellElement.getAttribute("scr");
           if(imgValue.contains(shapeName)){
                   count++;
+			  System.out.println(shapeName);
                    	}
 	}
 }
