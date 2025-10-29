@@ -31,6 +31,7 @@ for(int row=0;row<=6;row++) {
                    String  imgValue  =cellElement.getAttribute("scr");
           if(imgValue.contains(shapeName)){
                   count++;
+			  System.out.println("Duumy");
                    	}
 	}
 }
